@@ -7,7 +7,7 @@ var cardsInPlay = [];
 
 // find the board and set it to a variable
 // so that we can add cards to it
-var board = document.getElementById('game-board');
+var board = document.getElementById('board')[0];
 // function that will create your board
 function createBoard() {
   // loop through your cards array to create card elements for your board
